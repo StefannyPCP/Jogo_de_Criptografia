@@ -1,0 +1,121 @@
+* {
+margin: 100;
+padding: 50;
+}
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: gainsboro;
+    color: #0A3871;
+}
+.slogan-alura {
+    width: 100%; /* Ajusta a imagem para ocupar toda a largura do contêiner */
+    max-width: 70px; /* Limita a largura máxima da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block;
+    margin: 10px; /* Centraliza a imagem */
+    left: auto;
+    
+}
+. /* Estilizando o container */
+.desafio {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow:10px;
+}
+/* Estilo específico para o botão de criptografar */
+#criptografar-btn {
+    width: 188px;
+    padding: 5px 20px;
+    font-size: 16px;
+    background-color:#0A3871;
+    color: white;
+    border-radius: 10px;
+}
+
+ /* Estilo específico para o botão de descriptografar */
+#descriptografar-btn {
+    width: 188px;
+    padding: 5px 20px;
+    font-size: 16px;
+    background-color:#0A3871;
+    color: white;
+    border-radius: 10px;
+}
+button2 {
+  width: 488px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color:#0A3871;
+    color: white;
+    border-radius: 10px;
+}
+.imagem-externa {
+    position: absolute;
+    top: 50%; /* Posiciona a imagem no meio verticalmente */
+    right: 0; /* Posiciona a imagem no canto direito */
+    transform: translateY(-50%); /* Centraliza a imagem verticalmente */
+    width: 330px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 600px; /* Mantém a proporção da imagem */
+    z-index: 1;
+}
+.imagem-interna {
+position: absolute;
+top: 40%;
+width: 200px; /* Define a largura da segunda imagem */
+height: 300px; /* Mantém a proporção da imagem */
+z-index: 2; /* Define a ordem da imagem (2 = sobreposta) */
+right:0px; /* Posiciona a imagem no canto direito */
+transform: translate(-50%, -50%); /* Centraliza exatamente no meio */
+}
+
+.desafio__programacao {
+    width: 480px;
+}
+.desafio__programacao__titulo {
+    font-size: 32px;
+}
+
+footer {
+    width: 328px;
+    height: 18px;
+    opacity: 80%;
+    position: relative;
+    font: inter;
+    font-weight: 400;
+    size: 12px;
+    line-height: 20px;
+    color: #495057;
+
+}
+.exclamation-circle {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+    background-color: #495057;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 5px; /* Espaço entre o círculo e a mensagem */
+}
+ /* Estilizando o campo de entrada */
+ input[type="text"] {
+    padding: 10px;
+    width: 30%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Estilizando a área de exibição */
+#output {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
